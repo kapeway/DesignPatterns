@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternsTutorial", "PatternsTutorial\PatternsTutorial.csproj", "{AB51B0D0-B59B-4BDD-A1C9-A2880B881AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternsTutorialTests", "PatternsTutorialTests\PatternsTutorialTests.csproj", "{FCF99530-C3E6-49BC-8799-B4A90D2A535F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB51B0D0-B59B-4BDD-A1C9-A2880B881AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB51B0D0-B59B-4BDD-A1C9-A2880B881AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB51B0D0-B59B-4BDD-A1C9-A2880B881AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB51B0D0-B59B-4BDD-A1C9-A2880B881AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF99530-C3E6-49BC-8799-B4A90D2A535F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF99530-C3E6-49BC-8799-B4A90D2A535F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF99530-C3E6-49BC-8799-B4A90D2A535F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF99530-C3E6-49BC-8799-B4A90D2A535F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
