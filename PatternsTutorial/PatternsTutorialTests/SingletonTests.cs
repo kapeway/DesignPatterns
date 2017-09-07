@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using PatternsTutorial;
 
@@ -16,14 +20,41 @@ namespace PatternsTutorialTests
         }
 
         [Test]
-        public void BasicLoadBalancerCreationTest()
+        public void BasicLoadBalancerCreationSingleThreadTest()
         {
-            for (var i = 0; i < 6; i++)
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
+            for (var i = 0; i < 10; i++)
             {
-                var server1=BasicLoadBalancer.GetLoadBalancer();
-                Console.WriteLine(server1.Server);
-
+                var server1 = BasicLoadBalancer.GetLoadBalancer();
+                Console.WriteLine($"{server1.Server} :: Thread Id :: {Thread.CurrentThread.ManagedThreadId}");
+                Thread.Sleep(10000);
             }
+            stopWatch.Stop();
+            Console.WriteLine($"Total execution :: {stopWatch.Elapsed}");
+        }
+        [Test]
+        public void BasicLoadBalancerCreationMultiThreadTest()
+        {
+            var taskList = new List<Task>();
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
+            for (var i = 0; i < 10; i++)
+            {
+                var lastTask = new Task(WriteServerCalledByLoadBalancer);
+                lastTask.Start();
+                taskList.Add(lastTask);
+            }
+            Task.WaitAll(taskList.ToArray());
+            stopWatch.Stop();
+            Console.WriteLine($"Total execution :: {stopWatch.Elapsed}");
+        }
+
+        private void WriteServerCalledByLoadBalancer()
+        {
+            var server1 = BasicLoadBalancer.GetLoadBalancer();
+            Console.WriteLine($"{server1.Server} :: Thread Id :: {Thread.CurrentThread.ManagedThreadId}");
+            Thread.Sleep(10000);
         }
     }
 }
