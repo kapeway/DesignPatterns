@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\Square.cs" />
+    <Compile Include="Factory\Rectangle.cs" />
+    <Compile Include="Factory\Circle.cs" />
+    <Compile Include="Factory\IShape.cs" />
+    <Compile Include="Factory\ShapeFactory.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
