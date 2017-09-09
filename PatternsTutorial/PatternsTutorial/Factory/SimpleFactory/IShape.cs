@@ -1,4 +1,4 @@
-﻿namespace PatternsTutorial.Factory
+﻿namespace PatternsTutorial.Factory.SimpleFactory
 {
     public interface IShape
     {

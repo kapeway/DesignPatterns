@@ -24,7 +24,7 @@ namespace PatternsTutorialTests
         {
             var stopWatch = new Stopwatch();
             stopWatch.Start();
-            for (var i = 0; i < 10; i++)
+            for (var i = 0; i < 3; i++)
             {
                 var server1 = BasicLoadBalancer.GetLoadBalancer();
                 Console.WriteLine($"{server1.Server} :: Thread Id :: {Thread.CurrentThread.ManagedThreadId}");
@@ -39,7 +39,7 @@ namespace PatternsTutorialTests
             var taskList = new List<Task>();
             var stopWatch = new Stopwatch();
             stopWatch.Start();
-            for (var i = 0; i < 10; i++)
+            for (var i = 0; i < 3; i++)
             {
                 var lastTask = new Task(WriteServerCalledByLoadBalancer);
                 lastTask.Start();

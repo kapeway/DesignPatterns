@@ -1,10 +1,10 @@
 ﻿using NUnit.Framework;
-using PatternsTutorial.Factory;
+using PatternsTutorial.Factory.SimpleFactory;
 
 namespace PatternsTutorialTests
 {
     [TestFixture]
-    class FactoryTest
+    class SimpleFactoryTest
     {
         [TestCase("Circle")]
         [TestCase("Square")]
