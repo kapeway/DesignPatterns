@@ -43,20 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder\BmwBuilder.cs" />
-    <Compile Include="Builder\BmwCar.cs" />
-    <Compile Include="Factory\AbstractFactory\AbstractClasses\CarFactory.cs" />
-    <Compile Include="Factory\AbstractFactory\ConcreteClasses\HondaCar.cs" />
-    <Compile Include="Factory\AbstractFactory\ConcreteClasses\BmwCar.cs" />
-    <Compile Include="Factory\AbstractFactory\ConcreteClasses\HondaFactory.cs" />
-    <Compile Include="Factory\AbstractFactory\ConcreteClasses\BmwFactory.cs" />
-    <Compile Include="Factory\AbstractFactory\AbstractClasses\Car.cs" />
-    <Compile Include="Factory\SimpleFactory\Square.cs" />
-    <Compile Include="Factory\SimpleFactory\Rectangle.cs" />
-    <Compile Include="Factory\SimpleFactory\Circle.cs" />
-    <Compile Include="Factory\SimpleFactory\IShape.cs" />
-    <Compile Include="Factory\SimpleFactory\ShapeFactory.cs" />
-    <Compile Include="Singleton.cs" />
+    <Compile Include="Creational\Builder\BmwBuilder.cs" />
+    <Compile Include="Creational\Builder\BmwCar.cs" />
+    <Compile Include="Creational\Factory\AbstractFactory\AbstractClasses\CarFactory.cs" />
+    <Compile Include="Creational\Factory\AbstractFactory\ConcreteClasses\HondaCar.cs" />
+    <Compile Include="Creational\Factory\AbstractFactory\ConcreteClasses\BmwCar.cs" />
+    <Compile Include="Creational\Factory\AbstractFactory\ConcreteClasses\HondaFactory.cs" />
+    <Compile Include="Creational\Factory\AbstractFactory\ConcreteClasses\BmwFactory.cs" />
+    <Compile Include="Creational\Factory\AbstractFactory\AbstractClasses\Car.cs" />
+    <Compile Include="Creational\Factory\SimpleFactory\Square.cs" />
+    <Compile Include="Creational\Factory\SimpleFactory\Rectangle.cs" />
+    <Compile Include="Creational\Factory\SimpleFactory\Circle.cs" />
+    <Compile Include="Creational\Factory\SimpleFactory\IShape.cs" />
+    <Compile Include="Creational\Factory\SimpleFactory\ShapeFactory.cs" />
+    <Compile Include="Creational\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
