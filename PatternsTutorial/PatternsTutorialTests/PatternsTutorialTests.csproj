@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryTest.cs" />
+    <Compile Include="BuilderTests.cs" />
     <Compile Include="SimpleFactoryTest.cs" />
     <Compile Include="SingletonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
