@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\AbstractFactory\AbstractClasses\CarFactory.cs" />
+    <Compile Include="Factory\AbstractFactory\ConcreteClasses\HondaCar.cs" />
+    <Compile Include="Factory\AbstractFactory\ConcreteClasses\BmwCar.cs" />
+    <Compile Include="Factory\AbstractFactory\ConcreteClasses\HondaFactory.cs" />
+    <Compile Include="Factory\AbstractFactory\ConcreteClasses\BmwFactory.cs" />
+    <Compile Include="Factory\AbstractFactory\AbstractClasses\Car.cs" />
     <Compile Include="Factory\SimpleFactory\Square.cs" />
     <Compile Include="Factory\SimpleFactory\Rectangle.cs" />
     <Compile Include="Factory\SimpleFactory\Circle.cs" />
@@ -48,6 +54,7 @@
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -28,7 +28,7 @@ namespace PatternsTutorialTests
             {
                 var server1 = BasicLoadBalancer.GetLoadBalancer();
                 Console.WriteLine($"{server1.Server} :: Thread Id :: {Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(10000);
+                Thread.Sleep(1000);
             }
             stopWatch.Stop();
             Console.WriteLine($"Total execution :: {stopWatch.Elapsed}");
@@ -54,7 +54,7 @@ namespace PatternsTutorialTests
         {
             var server1 = BasicLoadBalancer.GetLoadBalancer();
             Console.WriteLine($"{server1.Server} :: Thread Id :: {Thread.CurrentThread.ManagedThreadId}");
-            Thread.Sleep(10000);
+            Thread.Sleep(1000);
         }
     }
 }
