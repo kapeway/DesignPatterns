@@ -1,4 +1,4 @@
-﻿namespace PatternsTutorial.Factory.SimpleFactory
+﻿namespace PatternsTutorial.Creational.Factory.SimpleFactory
 {
     public class Circle:IShape
     {

@@ -1,4 +1,4 @@
-﻿namespace PatternsTutorial.Builder
+﻿namespace PatternsTutorial.Creational.Builder
 {
     public class BmwBuilder
     {

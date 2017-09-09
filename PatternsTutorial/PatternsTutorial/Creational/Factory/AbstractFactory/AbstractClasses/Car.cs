@@ -1,4 +1,4 @@
-﻿namespace PatternsTutorial.Factory.AbstractFactory.AbstractClasses
+﻿namespace PatternsTutorial.Creational.Factory.AbstractFactory.AbstractClasses
 {
     public abstract class Car
     {

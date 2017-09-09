@@ -44,10 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactoryTest.cs" />
-    <Compile Include="BuilderTests.cs" />
-    <Compile Include="SimpleFactoryTest.cs" />
-    <Compile Include="SingletonTests.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibilityTests.cs" />
+    <Compile Include="Creational\AbstractFactoryTest.cs" />
+    <Compile Include="Creational\BuilderTests.cs" />
+    <Compile Include="Creational\SimpleFactoryTest.cs" />
+    <Compile Include="Creational\SingletonTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

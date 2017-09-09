@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using PatternsTutorial.Builder;
+using PatternsTutorial.Creational.Builder;
 
-namespace PatternsTutorialTests
+namespace PatternsTutorialTests.Creational
 {
     [TestFixture]
     public class BuilderTests

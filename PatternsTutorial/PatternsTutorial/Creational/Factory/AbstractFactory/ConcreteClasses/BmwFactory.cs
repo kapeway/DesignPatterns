@@ -1,6 +1,6 @@
-﻿using PatternsTutorial.Factory.AbstractFactory.AbstractClasses;
+﻿using PatternsTutorial.Creational.Factory.AbstractFactory.AbstractClasses;
 
-namespace PatternsTutorial.Factory.AbstractFactory.ConcreteClasses
+namespace PatternsTutorial.Creational.Factory.AbstractFactory.ConcreteClasses
 {
     public class BmwFactory:CarFactory
     {

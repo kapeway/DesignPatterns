@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using PatternsTutorial;
+using PatternsTutorial.Creational;
 
-namespace PatternsTutorialTests
+namespace PatternsTutorialTests.Creational
 {
     [TestFixture]
     public class SingletonTests

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PatternsTutorial
+namespace PatternsTutorial.Creational
 {
     public class Singleton
     {

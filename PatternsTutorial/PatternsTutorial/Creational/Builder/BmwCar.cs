@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace PatternsTutorial.Builder
+namespace PatternsTutorial.Creational.Builder
 {
     public class BmwCar
     {

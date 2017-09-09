@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using PatternsTutorial.Factory.SimpleFactory;
+using PatternsTutorial.Creational.Factory.SimpleFactory;
 
-namespace PatternsTutorialTests
+namespace PatternsTutorialTests.Creational
 {
     [TestFixture]
     class SimpleFactoryTest

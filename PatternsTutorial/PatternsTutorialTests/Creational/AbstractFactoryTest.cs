@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using PatternsTutorial.Factory.AbstractFactory.ConcreteClasses;
+using PatternsTutorial.Creational.Factory.AbstractFactory.ConcreteClasses;
 
-namespace PatternsTutorialTests
+namespace PatternsTutorialTests.Creational
 {
     [TestFixture]
     public class AbstractFactoryTest
