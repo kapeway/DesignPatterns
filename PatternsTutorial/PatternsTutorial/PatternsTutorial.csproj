@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\COR\Cash.cs" />
+    <Compile Include="Behavioral\COR\CashDepositHandler.cs" />
+    <Compile Include="Behavioral\COR\CashDepositRequest.cs" />
+    <Compile Include="Behavioral\COR\FiveHundredRupeeCashHandler.cs" />
+    <Compile Include="Behavioral\COR\HundredRupeeCashHandler.cs" />
+    <Compile Include="Behavioral\COR\TwoThousandRupeeCashHandler.cs" />
     <Compile Include="Creational\Builder\BmwBuilder.cs" />
     <Compile Include="Creational\Builder\BmwCar.cs" />
     <Compile Include="Creational\Factory\AbstractFactory\AbstractClasses\CarFactory.cs" />
@@ -62,9 +68,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behavioral\COR\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
