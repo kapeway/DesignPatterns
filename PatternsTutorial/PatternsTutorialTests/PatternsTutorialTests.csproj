@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Behavioral\ChainOfResponsibilityTests.cs" />
+    <Compile Include="Behavioral\CommandTests.cs" />
     <Compile Include="Creational\AbstractFactoryTest.cs" />
     <Compile Include="Creational\BuilderTests.cs" />
     <Compile Include="Creational\SimpleFactoryTest.cs" />

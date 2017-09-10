@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Command\Agent.cs" />
+    <Compile Include="Behavioral\Command\BuyTransaction.cs" />
+    <Compile Include="Behavioral\Command\ITransaction.cs" />
+    <Compile Include="Behavioral\Command\SellTransaction.cs" />
     <Compile Include="Behavioral\COR\Cash.cs" />
     <Compile Include="Behavioral\COR\CashDepositHandler.cs" />
     <Compile Include="Behavioral\COR\CashDepositRequest.cs" />
